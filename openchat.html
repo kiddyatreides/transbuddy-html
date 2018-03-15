@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/datepicker.css">
+
+    <title>Transbuddy</title>
+</head>
+<body style="background-color: #e3f2fd; ">
+
+<!--ini bagian navigasi-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" style=""><span style="color: #2196f3;">Trans</span><span>Buddy.com</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="hometranslater.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pesanantranslater.html">Orders</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="chattantranslater.html">Chat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="logintranslater.html">Log Out</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--end navigasi-->
+
+<div class="container">
+    <!-- Content here -->
+    <br><br>
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-sm-12 col-lg-6">
+            <div class="card" style="background-color: #ffffff;padding: 50px">
+                <div class="card-body">
+
+                    <div style="background-color: #e0e0e0 ;">
+                    <div class="judulChat" style="background-color:#90CAF9;padding:20px;color:white;">
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <h6>Say Hello!</h6>
+                            </div>
+                            <div class="col-sm-2" >
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxMessage" id="boxMessage" style="height:400px;padding:15px;overflow-x:hidden;">
+                        <!--chat box sebelah kanan-->
+                        <div class="row" style="margin-top:15px;  ">
+                            <div class="col-sm-9" style="padding: 0;margin:0;">
+                                <div style="padding:15px;margin:5px 0 0 25px;background-color:#90CAF9;border-radius:10px;">
+                                    <h6  style="text-align:right;color: white;"><i>Me</i></h6>
+                                    <hr style="background-color: white">
+                                    <p style="color: white;"> Hello there! Is there anything I can help you with? </p>
+                                </div>
+                            </div>
+                            
+                            <div class="">
+                                <img src="images/cewe2.png" alt="..." class="rounded-circle" width="60" style="background-color:#F0F0F0;padding:5px;margin:7px;"">
+                            </div>
+                        </div>
+
+                        <!--chat box sebelah kiri-->
+                        <div class="row" style="margin-top:15px;">
+                        <div class="col-sm-2">
+                            <img src="images/bule.png" alt="..." class="rounded-circle" width="60" height="60" style="background-color:#F0F0F0;padding:5px;margin:10px;"">
+                        </div>
+                        <div class="col-sm-9">
+                            <div style="padding:15px;margin:5px 10px 0;background-color:white;border-radius:10px;">
+                                <h6><i>Tourist</i></h6>
+                                <hr>
+                                <p>Yes!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                    <div style="background-color:#D5EAFB;padding:10px;">
+                        <center>
+                        <div class="input-group mb-3 col-sm-11">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="ketik disini">
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-outline-primary">Kirim</button>
+                            </div>
+                        </div>
+                        </center>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<!-- Optional JavaScript -->
+<script>
+    $(".boxMessage").stop().animate({ scrollTop: $(".boxMessage")[0].scrollHeight }, 1000);
+</script>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+<script src="assets/js/bootstrap-datepicker.js"></script>
+
+</body>
+</html>
